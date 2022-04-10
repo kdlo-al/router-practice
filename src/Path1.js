@@ -5,8 +5,8 @@ function PathOne() {
     return (
         <div>
             <h2>This is Path Number 1</h2>
-            <button onClick={() => { navigate("/router-practice/PathFour"); }}>Path 4</button>
-            <button onClick={() => { navigate("/router-practice/PathFive"); }}>Path 5</button>
+            <button onClick={() => { navigate("/gh-pages-url/PathFour"); }}>Path 4</button>
+            <button onClick={() => { navigate("/gh-pages-url/PathFive"); }}>Path 5</button>
         </div>
     )
 }
