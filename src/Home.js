@@ -5,9 +5,9 @@ function Home() {
     return (
         <div>
             <h1>Welcome To The Home Page</h1>
-            <Link to="PathOne" className="PathOneLink">Path One</Link>
-            <Link to="PathTwo" className="PathTwoLink">Path Two</Link>
-            <Link to="PathThree" className="PathThreeLink">Path Three</Link>
+            <Link to="/router-practice/PathOne" className="PathOneLink">Path One</Link>
+            <Link to="/router-practice/PathTwo" className="PathTwoLink">Path Two</Link>
+            <Link to="/router-practice/PathThree" className="PathThreeLink">Path Three</Link>
             {/*testing previous commit*/}
         </div>
     )
