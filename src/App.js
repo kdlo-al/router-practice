@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/gh-pages-url" element={<Home />} />
-        <Route path="/gh-pages-url/PathOne" element={<PathOne />} />
-        <Route path="/gh-pages-url/PathTwo" element={<PathTwo />} />
-        <Route path="/gh-pages-url/PathThree" element={<PathThree />} />
+        <Route path="/" element={<Home />} />
+        <Route path="PathOne" element={<PathOne />} />
+        <Route path="PathTwo" element={<PathTwo />} />
+        <Route path="PathThree" element={<PathThree />} />
 
-        <Route path="/gh-pages-url/PathFour" element={<PathFour />} />
-        <Route path="/gh-pages-url/PathFive" element={<PathFive />} />
+        <Route path="PathFour" element={<PathFour />} />
+        <Route path="PathFive" element={<PathFive />} />
       </Routes>
     </div>
   );
